@@ -5,8 +5,17 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+
+The first time I ran the game, it looked normal.
+
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+
+  A bug that I ran into was that I guessed a number way lower than the secret number but the hint told me to go lower. And vice versa for a number higher than the secret number.
+
+  Another bug I noticed was that after guessing the secret number correctly and trying to start a new game, the new game button just did not work. It did not let me guess new numbers.
+
+  Easy mode has less guess attempts than normal mode.
 
 **Bug Reproduction Log**
 
@@ -14,9 +23,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+|guess of 4|go higher|go lower|none|
+|Start a new game then guess a number|go higher/go lower|none|You already won. Start a new game to play again.|
+|guess of 50|go lower|go higher|none|
 
 ---
 
