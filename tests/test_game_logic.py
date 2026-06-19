@@ -16,6 +16,7 @@ def test_guess_too_low():
     outcome, _ = check_guess(40, 50)
     assert outcome == "Too Low"
 
+# pytest written by claude to check that the high/low logic is correct and not swapped. This is important to ensure that the game provides accurate feedback to the player, which is crucial for the gameplay experience.
 
 # Parametrized cases to verify high/low direction is not swapped
 @pytest.mark.parametrize("guess, secret, expected_outcome", [
